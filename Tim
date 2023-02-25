@@ -1,0 +1,7 @@
+const myNumber = 1200;
+//convert to hexadecimal value
+console.log(myNumber.toString(16)); //will return  4b0
+//Other way of converting to hexadecimal
+console.log(Math.abs(myNumber).toString(16)); //will return  4b0
+//convert to decimal value
+console.log(parseFloat(myNumber.toString()).toFixed(2)); //will return  1200.00
